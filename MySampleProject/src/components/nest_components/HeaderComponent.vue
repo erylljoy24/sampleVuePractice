@@ -19,9 +19,11 @@ export default {
   header{
   	background: green;
   	text-align: center;
+    margin-top: 0px;
+    padding: 0px;
   },
   h1{
-  	text-decoration-color: red;
+  	color: red;
   	text-align: center;
   }
 </style>

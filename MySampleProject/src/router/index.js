@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import TestCompo from '@/components/TestCompo'
-import PageBody from '@/components/PageBody'
+import PageBody from '@/components/nest_components/PageBody'
 
 Vue.use(Router)
 

@@ -3,9 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import PageBody from './components/PageBody'
-import HeaderComponent from './components/HeaderComponent'
-import FooterComponent from './components/FooterComponent'
+import PageBody from './components/nest_components/PageBody'
+import HeaderComponent from './components/nest_components/HeaderComponent'
+import FooterComponent from './components/nest_components/FooterComponent'
 
 Vue.config.productionTip = false
 Vue.component('barkada', PageBody);

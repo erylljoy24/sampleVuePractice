@@ -21,7 +21,7 @@ export default {
   	text-align: center;
   },
   h1{
-  	text-decoration-color: red;
+  	color: red;
   	text-align: center;
   }
 </style>
