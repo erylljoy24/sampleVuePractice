@@ -1,7 +1,9 @@
  <template>
-  <header>
-  	<h1>{{ header }}</h1>
-  </header>
+  <div class="container">
+    <div class="container-fluid navbar-header">
+      <h1 class="text-danger">{{ header }}</h1>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -16,11 +18,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  header{
-  	background: green;
-  	text-align: center;
-    margin-top: 0px;
-    padding: 0px;
+  container-fluid{
+    background: grey;
+    text-align: center;
   },
   h1{
   	color: red;

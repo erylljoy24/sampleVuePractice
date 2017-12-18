@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import NewHeaderComponent from './new_component_folder/NewHeaderComponent';
-import NewPageBodyComponent from './new_component_folder/NewPageBodyComponent';
-import NewFooterComponent from './new_component_folder/NewFooterComponent';
+import NewHeaderComponent from './new_component_folder/NewHeaderComponent'
+import NewPageBodyComponent from './new_component_folder/NewPageBodyComponent'
+import NewFooterComponent from './new_component_folder/NewFooterComponent'
 
 
 export default {

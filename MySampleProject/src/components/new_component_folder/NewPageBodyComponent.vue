@@ -9,8 +9,8 @@
 
     <ul id="second-ul">
       <li v-for="ninja in ninjasV2" v-on:click="ninja.show = !ninja.show">
-        <h1>{{ ninja.name }}</h1>
-        <h3 v-show="ninja.show">{{ ninja.specialty }}</h3>
+        <h1 class="text-danger">{{ ninja.name }}</h1>
+        <h3 class="text-warning" v-show="ninja.show">{{ ninja.specialty }}</h3>
       </li>
     </ul>
   </div>
